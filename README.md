@@ -7,3 +7,13 @@ Este repositório contém o código de exemplo utilizado na playlist de [API RES
 - Entrar na pasta do projeto pelo terminal
 - Executar o comando npm install
 - Executar o comando npm run dev
+
+### URL base: http://localhost:3001/api
+### Rotas disponíveis:
+- GET
+  - / -> retorna o objeto `{ status: 'success' }`
+  - /users -> retorna uma lista de usuários
+  - /users/:id -> retorna um usuário
+
+- POST
+  - /users -> teoricamente adiciona um usuário e retorna o objeto `{ status: 'created' }`
